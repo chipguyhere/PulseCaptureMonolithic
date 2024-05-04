@@ -1,9 +1,9 @@
 # PulseCaptureMonolithic
 Monolithic versions of PulseCapture that target a single purpose with minimal footprint.
 
-## IrMega45
-This captures NEC IR signals on pin 45 of an Arduino Mega.  It takes over Timer5,
-to which pin 45 is hard wired for hardware pulse capture.  Capture takes place completely using Timer5's interrupts.
+## IrMega48
+This captures NEC IR signals on pin 48 of an Arduino Mega.  It takes over Timer5,
+to which pin 48 is hard wired for hardware pulse capture.  Capture takes place completely using Timer5's interrupts.
 
 Calling ```begin()``` is optional.  IR detection is active upon the first call to ```begin()``` or ```read()```.
 
